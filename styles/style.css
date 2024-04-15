@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Noto Serif";
+    color: #444;
+}
+
+.header-navigation {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* header {
+    color: #fff;
+    height: 100vh;
+
+    /* position: relative; */
+    /* background-size: 40px 40px; */
+    /* background-color: #444;
+    background-image: radial-gradient(
+            circle at 25% 50%,
+
+            rgba(0, 0, 0, 1) 25%,
+            rgba(2, 0, 36, 0) 60%
+        ),
+        radial-gradient(
+            circle,
+            rgba(232, 212, 100, 0.6) 1px,
+            rgba(0, 0, 0, 0) 1px
+        ),
+        url(marc-fanelli-isla-xo4ValczbuA-unsplash.jpg);
+    background-size: cover, 40px 40px, cover; */
+
+    /* background-image: radial-gradient(
+            circle at 25% 50%,
+
+            rgba(0, 0, 0, 1) 25%,
+            rgba(2, 0, 36, 0) 60%
+        ),
+        radial-gradient(
+            circle,
+            rgba(232, 212, 100, 0.6) 1px,
+            rgba(0, 0, 0, 0) 1px
+        ),
+        linear-gradient(
+            rgba(47, 47, 47, 0.6),
+            rgba(47, 47, 47, 0.6)
+        ),
+        url(marc-fanelli-isla-xo4ValczbuA-unsplash.jpg);
+    background-size: cover, 40px 40px, cover, cover; */
+} */
+
+nav {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+    width: 50%;
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 0.9;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+}
+section {
+    padding: 96px 0;
+    background-color: #f7f7f7;
+}
+/* .noto-serif-<uniquifier > {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+} */
